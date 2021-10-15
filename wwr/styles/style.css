@@ -1,15 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Open+Sans+Condensed:wght@300&display=swap');
+
 body {
     background-color: ivory;
+    font-family: "Open Sans Condensed", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 header {
     background-color: darkslategrey;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.logo {
+    width: 80px;
+}
+
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -17,18 +37,37 @@ nav a:hover {
     color: #F48C06;
 }
 
-.home-title {
-    color: #370617;
+#hero-img {
+    width: 100%;
 }
 
-h4 {
-    color: #6A040F;
+#hero-msg h1 {
+    text-align: center;
+}
+
+.home-title {
+    color: #370617;
+    font-family: Birthstone, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
 }
 
 .book, .join {
     background-color: #370617;
     color: ivory;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -36,12 +75,25 @@ h4 {
     color: #370617;
 }
 
-.msg h2 {
-    color: #F48C06;
+main section {
+    text-align: center;
 }
 
-.msg p {
-    color: goldenrod;
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #370617;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
 }
 
 #background {
@@ -51,15 +103,38 @@ h4 {
 
 .msg {
     background-color: #370617;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: #F48C06;
+    font-family: Birthstone, Helvetica, sans-serif;
+}
+
+.msg p {
+    color: goldenrod;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+h4 {
+    color: #6A040F;
 }
 
 footer {
     background-color: darkslategrey;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
     color: ivory;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer a {
@@ -72,36 +147,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-.logo {
-    width: 80px;
-}
-
-.icon {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
+footer.social img {
+    padding-top: 15px;
 }
