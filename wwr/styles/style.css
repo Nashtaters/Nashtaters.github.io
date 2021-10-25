@@ -127,7 +127,7 @@ main section img {
 }
 
 .card img:hover {
-    opacity: .6;
+    opacity: .6; 
     transform: scale(1.1);
 }
 
