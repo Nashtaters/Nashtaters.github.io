@@ -196,6 +196,88 @@ h4 {
     color: #6A040F;
 }
 
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#banner-img {
+    width: 100%;
+}
+
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#banner-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#banner-msg h1 {
+    text-align: center;
+}
+
+.river-title {
+    color: #370617;
+    font-family: Birthstone, Helvetica, sans-serif;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#banner-msg h4 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.intro {
+    margin-top: 100px;
+    color: #F48C06;
+}
+
+.salmon-img {
+    float: right;
+    width: 50%;
+    height: 600px;
+    margin-top: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.desolation-img {
+    float: left;
+    width: 50%;
+    height: 600px;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+.grand-c-img {
+    float: right;
+    width: 50%;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.salmon-txt, .desolation-txt, .grand-c-txt {
+    padding: 50px;
+    text-align: left;
+}
+
+.salmon-txt h1, .desolation-txt h1, .grand-c-txt h1 {
+    color: #370617;
+    font-family: Birthstone, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
 footer {
     background-color: darkslategrey;
     padding: 25px 50px;
